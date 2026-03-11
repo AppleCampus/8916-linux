@@ -1,9 +1,11 @@
 name: Build
 on: [push, pull_request]
+
 jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         arch: [arm64, arm]
         compiler: [gcc, clang]
