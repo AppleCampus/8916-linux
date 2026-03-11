@@ -258,8 +258,6 @@
 		opp-hz = /bits/ 64 <2100000000>;
 		};
 	};
-		};
-	};
 
 	firmware {
 		scm: scm {
